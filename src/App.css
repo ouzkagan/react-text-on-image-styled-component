@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap');
+
+@font-face {
+  font-family: 'Rounded Mplus';
+  src: url('../src/assets/fonts/Rounded-Mplus-1c-Light.ttf.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Myriad Roman';
+  src: url('../src/assets/fonts/Myriad-Roman.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face{
+  font-family: "Ace Sans";
+  src: url('../src/assets/fonts/AceSans-Demo.woff') format('woff'), url('../src/assets/fonts/AceSans-Demo.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Freescript';
+  src: url('../src/assets/fonts/Freescript.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Acto Black';
+  src: url('../src/assets/fonts/Acto-Black.woff') format('woff'),
+  url('../src/assets/fonts/Acto-Black.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Golden Plains';
+  src: url('../src/assets/fonts/Golden\ Plains\ -\ Demo.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ginger Biscuit';
+  src:url('../src/assets/fonts/GingerBiscuit/Ginger-Biscuit-Personal-Use.ttf.woff') format('woff'),
+      url('../src/assets/fonts/GingerBiscuit/Ginger-Biscuit-Personal-Use.ttf.svg') format('svg'),
+      url('../src/assets/fonts/GingerBiscuit/Ginger-Biscuit-Personal-Use.ttf.eot'),
+      url('../src/assets/fonts/GingerBiscuit/Ginger-Biscuit-Personal-Use.ttf.eot?#iefix') format('embedded-opentype'); 
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Merrycle';
+  src:url('../src/assets/fonts/Merrycle/Merrycle.woff') format('woff'),
+      url('../src/assets/fonts/Merrycle/Merrycle.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*Dierenprint/Verkikkerd*/
+@font-face {
+  font-family: 'Merrycle';
+  src:url('./assets/fonts/Merrycle/Merrycle.woff') format('woff'),
+      url('./assets/fonts/Merrycle/Merrycle.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+/*Steden/Keulen*/
+@font-face {
+  font-family: 'SybarisOpti';
+  src:url('./assets/fonts/SybarisOpti/SybarisOpti.ttf.woff') format('woff'),
+      url('./assets/fonts/SybarisOpti/SybarisOpti.ttf.svg#SybarisOpti') format('svg'),
+      url('./assets/fonts/SybarisOpti/SybarisOpti.ttf.eot'),
+      url('./assets/fonts/SybarisOpti/SybarisOpti.ttf.eot?#iefix') format('embedded-opentype'); 
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*Steden/Kinderdijk*/
+@font-face {
+  font-family: 'DM-Sans-Regular';
+  src:url('./assets/fonts/DMSans/DM-Sans-Regular.ttf.woff') format('woff'),
+      url('./assets/fonts/DMSans/DM-Sans-Regular.ttf.svg#DM-Sans-Regular') format('svg'),
+      url('./assets/fonts/DMSans/DM-Sans-Regular.ttf.eot'),
+      url('./assets/fonts/DMSans/DM-Sans-Regular.ttf.eot?#iefix') format('embedded-opentype'); 
+  font-weight: normal;
+  font-style: normal;
+}
+/*Almere/General*/
+@font-face {
+  font-family: 'Oswald';
+  src:url('./assets/fonts/Oswald/Oswald-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+/*Almere/ExoSoft*/
+@font-face {
+  font-family: 'ExoSoft';
+  src: local('ExoSoft Regular'), local('Exo-Soft-Regular'),
+      url('./assets/fonts/ExoSoft/ExoSoft-Regular.woff2') format('woff2'),
+      url('./assets/fonts/ExoSoft/ExoSoft-Regular.woff') format('woff'),
+      url('./assets/fonts/ExoSoft/ExoSoft-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'ExoSoft';
+    src: local('ExoSoft Semi Bold'), local('Exo-Soft-Semi-Bold'),
+        url('./assets/fonts/ExoSoft/ExoSoft-SemiBold.woff2') format('woff2'),
+        url('./assets/fonts/ExoSoft/ExoSoft-SemiBold.woff') format('woff'),
+        url('./assets/fonts/ExoSoft/ExoSoft-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'ExoSoft';
+    src: local('ExoSoft Thin'), local('Exo-Soft-Thin'),
+        url('./assets/fonts/ExoSoft/ExoSoft-Thin.woff2') format('woff2'),
+        url('./assets/fonts/ExoSoft/ExoSoft-Thin.woff') format('woff'),
+        url('./assets/fonts/ExoSoft/ExoSoft-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+  }
+.shirt-configurator{
+  max-width: 500px;
+  position:relative;
+}
+.canvas-container{
+  position:relative;
+}
+.canvas-entity{
+  position:fixed;
+  width: 400px;
+}
+.shirt-configurator img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: -99;
+}
+canvas{ 
+  border: 1px solid black; 
+}
+
+input[type=range] {
+  width: 100%; /* Specific width is required for Firefox. */
+}
+pre{
+  white-space: break-spaces;
+}
